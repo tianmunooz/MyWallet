@@ -1,0 +1,13 @@
+
+<resources>
+    <attr name="colorPrimary" format="color" />
+    <attr name="colorOnPrimary" format="color" />
+    <attr name="colorPrimaryContainer" format="color" />
+    <attr name="colorOnPrimaryContainer" format="color" />
+    <attr name="harmonizePrimary" format="boolean" />
+    <attr name="colorSeconday" format="color" />
+    <attr name="colorOnSeconday" format="color" />
+    <attr name="colorSecondayContainer" format="color" />
+    <attr name="colorOnSecondayContainer" format="color" />
+    <attr name="harmonizeSeconday" format="boolean" />
+</resources>

@@ -13,6 +13,9 @@
         android:theme="@style/Theme.MyWallet"
         tools:targetApi="31">
         <activity
+            android:name=".ListAccountActivity"
+            android:exported="false" />
+        <activity
             android:name=".NewAccountActivity"
             android:exported="true">
             <intent-filter>
@@ -20,11 +23,10 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="false">
-        </activity>
+            android:exported="false" />
     </application>
+
 </manifest>

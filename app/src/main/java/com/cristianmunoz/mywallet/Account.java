@@ -1,10 +1,29 @@
 package com.cristianmunoz.mywallet;
-
 public class Account {
-
     private String name;
-    private String type;
-    private Double balance;
+    private String typeAccount;
+    private Double currentValue;
+    private String imagenurl;
+
+
+    public Account(String name, String typeAccount, Double currentValue, String imagenurl) {
+        this.name = name;
+        this.typeAccount = typeAccount;
+        this.currentValue = currentValue;
+        this.imagenurl = imagenurl;
+    }
+
+    public Account(String name) {
+        this.name = name;
+    }
+
+    public String getImagenurl() {
+        return imagenurl;
+    }
+
+    public void setImagenurl(String imagenurl) {
+        this.imagenurl = imagenurl;
+    }
 
     public String getName() {
         return name;
@@ -14,25 +33,19 @@ public class Account {
         this.name = name;
     }
 
-    public String getType() {
-        return type;
+    public String getTypeAccount() {
+        return typeAccount;
     }
 
-    public void setType(String type) {
-        this.type = type;
+    public void setTypeAccount(String typeAccount) {
+        this.typeAccount = typeAccount;
     }
 
-    public Double getBalance() {
-        return balance;
+    public Double getCurrentValue() {
+        return currentValue;
     }
 
-    public void setBalance(Double balance) {
-        this.balance = balance;
-    }
-
-    public Account(String name, String type, Double balance) {
-        this.name = name;
-        this.type = type;
-        this.balance = balance;
+    public void setCurrentValue(Double currentValue) {
+        this.currentValue = currentValue;
     }
 }

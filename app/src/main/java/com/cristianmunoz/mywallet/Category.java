@@ -35,3 +35,4 @@ public class Category {
         this.imageUrl = imageUrl;
     }
 }
+
